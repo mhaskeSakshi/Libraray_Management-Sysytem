@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Column direction */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.header {
+    position: absolute; /* Absolute positioning */
+    top: 20px; /* Space from the top */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 3em; /* Large font size */
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    color: rgb(20, 18, 18); /* Text color */
+    background: rgba(300, 300, 300, 0.10); /* White background with transparency */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2em; /* Slightly smaller font size than h1 */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+.form-group {
+    margin: 15px 0; /* Space between form fields */
+}
+
+label {
+    display: block; /* Labels take full width */
+    font-weight: bold; /* Bold labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1em; /* Font size for inputs */
+}
+
+button {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer on hover */
+    padding: 10px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1em; /* Font size for button */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
